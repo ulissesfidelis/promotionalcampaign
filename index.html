@@ -17,6 +17,11 @@
 			background-color: #ebebeb;
 		}
 
+		a {
+			text-decoration: none;
+			color: #000;
+		}
+
 		hr {
 			display: block;
 			margin-top: 50px !important;
@@ -86,6 +91,10 @@
 				font-size: 12px !important;;
 			}
 
+			.img-container:hover {
+				height: 350px !important;
+			}
+
 
 
 		}
@@ -113,11 +122,16 @@
 			height: 180px;
 			overflow: hidden;
 			background-color: #c1c1c1;
+			transition: height 0.5s ease-in-out;
 		}
 
 		.img-container img {
 			object-fit: cover;
 			border-radius: 5px;
+		}
+
+		.img-container:hover {
+			height: 360px;
 		}
 
 		.item-title {
@@ -203,43 +217,53 @@
 	<hr>
 	<h1 class="title">BEST SELLERS</h1>
 	<h2>PRIMAVERA / VERÃO 2025</h2>
-	<div class="action"><button>Garanta já o seu</button></div>
+	<div class="action"><a href="https://www.kfjoias.com.br/?category=84"><button>Garanta já o seu</button></a></div>
 	<div class="container">
+
 		<div class="columns">
 			<div class="column">
 				<img class="is-rounded-top" src="https://valorexcelente.s3.us-east-2.amazonaws.com/media/images/d170ab34-1bf3-4d29-b017-c808b979624b_colar-casal-dourado-3.webp">
 			</div>
+
 			<div class="column">
-				<div class="img-container is-rounded-top">
-					<img src="https://valorexcelente.s3.us-east-2.amazonaws.com/media/images/903a13a0-bee2-44de-8f2d-413f75adfaca_colar-casal-dourado-1.webp">
-				</div>
-				<ul>
-					<li class="item-title">Colar Casal</li>
-					<li class="description">Yellow Gold Pingente</li>
-					<li class="metal"><span class="gold">Metal</span> Ouro 18 quilates</li>
-					<li class="stl"><span class="gold">Estilo </span>Elos</li>
-					<li class="size-and-pricing"><span class="gold">Tamanho e Preço</span></li>
-					<li class="size-and-pricing desc">53cm - <span class="line-through">R$190,00</span> R$140,00</li>
-				</ul>									
+				<a href="https://www.kfjoias.com.br/colar-casal-dourado/">
+					<div class="img-container is-rounded-top">
+						<img src="https://valorexcelente.s3.us-east-2.amazonaws.com/media/images/903a13a0-bee2-44de-8f2d-413f75adfaca_colar-casal-dourado-1.webp">
+					</div>
+					<ul>
+						<li class="item-title">Colar Casal</li>
+						<li class="description">Yellow Gold Pingente</li>
+						<li class="metal"><span class="gold">Metal</span> Ouro 18 quilates</li>
+						<li class="stl"><span class="gold">Estilo </span>Elos</li>
+						<li class="size-and-pricing"><span class="gold">Tamanho e Preço</span></li>
+						<li class="size-and-pricing desc">53cm - <span class="line-through">R$190,00</span> R$140,00</li>
+					</ul>				
+				</a>			
 			</div>
+
 		</div>
  		<div class="columns">
+
 			<div class="column is-rounded">
-				<div class="img-container is-rounded-top">
-					<img src="https://valorexcelente.s3.us-east-2.amazonaws.com/media/images/7614ae7c-38d2-49de-9d43-9360d28ab774_corrente-veneziana-com-riviera.webp">
-				</div>
-				<ul>
-					<li class="item-title">Colar Veneziana</li>
-					<li class="description">Dupla riviera</li>
-					<li class="metal"><span class="gold">Metal</span> Prata 925</li>
-					<li class="stl"><span class="gold">Estilo </span> Elos quadrados</li>
-					<li class="size-and-pricing"><span class="gold">Tamanho e Preço</span></li>
-					<li class="size-and-pricing desc">49cm - <span class="line-through">R$80,00</span> R$60,00</li>
-				</ul>				
+ 				<a href="https://kfjoias.com.br/corrente-veneziana-com-riviera/">
+					<div class="img-container is-rounded-top">
+						<img src="https://valorexcelente.s3.us-east-2.amazonaws.com/media/images/7614ae7c-38d2-49de-9d43-9360d28ab774_corrente-veneziana-com-riviera.webp">
+					</div>
+					<ul>
+						<li class="item-title">Colar Veneziana</li>
+						<li class="description">Dupla riviera</li>
+						<li class="metal"><span class="gold">Metal</span> Prata 925</li>
+						<li class="stl"><span class="gold">Estilo </span> Elos quadrados</li>
+						<li class="size-and-pricing"><span class="gold">Tamanho e Preço</span></li>
+						<li class="size-and-pricing desc">49cm - <span class="line-through">R$80,00</span> R$60,00</li>
+					</ul>
+ 				</a>				
 			</div>
+
 			<div class="column">
 				<img class="is-rounded-top" src="https://valorexcelente.s3.us-east-2.amazonaws.com/media/images/da1fac06-bf46-4da5-80d8-5ad221bcd79d_corrente-veneziana-com-riviera-2.webp">
 			</div>
+
 		</div>
 	</div>
 <script type="text/javascript">
